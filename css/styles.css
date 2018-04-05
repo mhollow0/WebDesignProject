@@ -13,15 +13,14 @@ nav {
     display: flex;
 }
 
-nav ul {
+header nav ul {
     display: flex;
+    justify-content: flex-end
 }
 
 nav ul li {
-    list-style-type: none;
-    text-decoration: none;
+    list-style-type: none; 
 }
-
 
 html {
     color: #fff
@@ -63,6 +62,10 @@ a {
     /* only give some space to the right of anchors (links) */
     color: #fff;
     /* set anchor color to white */
+}
+
+a:hover {
+    color:gainsboro;
 }
 
 p {
